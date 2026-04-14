@@ -1,4 +1,4 @@
-# Student Complaint Tracking and Decision Support System
+# Integration and Development of a Web-Based Student Complaint Tracking and Decision Support System for University IT Services
 
 ## 🎯 Project Overview
 
@@ -427,5 +427,4 @@ This project is part of an academic course (ITPE 104) and is intended for educat
 
 **Built with ❤️ by Group 3 for ITPE 104 - Integration Programming 2**
 
-*Last Updated: April 7, 2026*#   S t u d e n t - C o m p l a i n t  
- 
+*Last Updated: April 7, 2026*
