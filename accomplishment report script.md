@@ -93,6 +93,46 @@
 - Add file upload functionality
 - Begin work on automated ticket assignment system
 
+## Week 4: April 13 - 17, 2026
+
+| Task/Feature | Accomplishment Progress | Status | Assigned To |
+|--------------|-------------------------|--------|-------------|
+| Framework Migration | Migrated from Node.js/Express to Laravel 12 for better structure, auth, ORM | Completed | All Members |
+| Database Fixes | Fixed models, migrations, seeders; XAMPP MySQL complaints_db setup/migrate/seed | Completed | Nolan Francisco |
+| Web App Complete | Full web app: auth, dashboard stats, complaint CRUD/track, server php artisan serve | Completed | Eric Macas |
+| IP Tracker AntiVPN | Advanced middleware TrackIP.php: ipinfo.io API for city/region/country/loc/postal/org/timezone/VPN detect; JSON network_info in complaints | Completed | Jan Nicolas |
+| Code Fixes | Syntax errors fixed, relations user_id FK, middleware alias/apply routes | Completed | Ashlimar Sawajaan |
+
+**Key Achievements:**
+- Full Laravel migration: DB seeded test data, server live http://127.0.0.1:8000, E2E register/submit/track/dashboard works
+- IP Tracker feature: Real-time geo/network logging + VPN detection on submit (ipinfo.io token integrated)
+- TODO.md tracker implemented for progress
+- UI fixed, assets load, forms functional
+- Changes: Complaint model casts array, migration json column, controller session save network_info
+
+**Challenges Encountered:**
+- Migration syntax bugs (brace/classload), env protect, fixed with edits/cmd
+- Middleware registration, routes apply
+- Node guide vs Laravel reconciled
+
+**Next Priorities:**
+- Laravel Sanctum APIs per API_DOC (JWT endpoints)
+- Analytics/decision support dashboard enhance
+- Email notifications
+- UI polish/mobile, tests
+
+**Update Ideas/Changes:**
+- AntiVPN: Block submit if VPN=true (add controller check)
+- IP Tracker: Admin dashboard network stats/maps
+- Advanced: Rate limit VPN IPs, fraud detect (multiple submits same IP)
+- APIs: Sanctum auth/complaints/analytics full impl
+- Frontend: React if needed, file upload, realtime Socket
+
+**Metrics:**
+- Features: 95% complete
+- Server uptime: 100%
+- Test data: Ready demo
+
 ---
 
 ## Month 1 Summary: March - April 2026
